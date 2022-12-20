@@ -47,3 +47,14 @@ prop.test(
   correct = FALSE
 )
 cat("== Fin de los resultados ==\n")
+
+# Graficos
+labels <- paste0(names(table(datos$Editor)), " (", round(prop.table(table(datos$Editor)) * 100, 2), "%)")
+with(datos, pie(table(Editor), col = rainbow(length(datos)), labels = labels))
+
+with(datos, mosaicplot(
+  table(Experimentado, EditorCompleto),
+  main = NULL,
+  xlab = "Experimentado",
+  ylab = "Editor Completo"
+))
