@@ -3,12 +3,12 @@ Atom,FALSE,Editor de código,TRUE,TRUE,TRUE,Grafico
 GDB Online,FALSE,Editor de código,TRUE,FALSE,FALSE,Web
 Helix,TRUE,Editor de código,TRUE,FALSE,FALSE,Terminal
 Jupyter Anaconda,FALSE,Cuaderno,TRUE,TRUE,TRUE,Web
-Kate,FALSE,Editor de código,TRUE,TRUE,TRUE,Grafico
+Kate,FALSE,Editor de código,FALSE,FALSE,TRUE,Grafico
 Colab,FALSE,Cuaderno,TRUE,TRUE,FALSE,Web
 Nano,FALSE,Editor de texto,FALSE,FALSE,FALSE,Terminal
-NeoVim,TRUE,Editor de código,TRUE,TRUE,TRUE,Ambas
+NeoVim,TRUE,Editor de código,FALSE,FALSE,TRUE,Ambas
 Netbeans,FALSE,IDE,TRUE,TRUE,TRUE,Grafico
-Sublime,FALSE,Editor de código,TRUE,TRUE,TRUE,Grafico
+Sublime,FALSE,Editor de código,FALSE,TRUE,TRUE,Grafico
 Visual Studio,FALSE,IDE,TRUE,TRUE,TRUE,Grafico
 VS Code,FALSE,IDE,TRUE,TRUE,TRUE,Grafico
 Bloc de notas,FALSE,Editor de texto,FALSE,FALSE,FALSE,Grafico
